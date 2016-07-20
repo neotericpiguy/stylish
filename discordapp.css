@@ -1,0 +1,11 @@
+/* https://discordapp.com*/
+@media screen and (max-width: 650px) {
+  .flex-vertical.channels-wrap, .guilds-wrapper {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}

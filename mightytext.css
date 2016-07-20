@@ -1,0 +1,49 @@
+/* https://mightytext.net */
+#pinnedContent {
+    left: 0px;
+    display: flex;
+    min-width: inherit;
+}
+#singleMessageContainer,
+.messageThread {
+    width: 100% !important;
+}
+.thread-tab {
+    height: 100% !important;
+    display: inherit !important;
+}
+#messageViewToggle,
+#alert-bottom-right-corner {
+    display: none !important;
+}
+ul#navBarTabs > li {
+    display: inline-flex;
+    height: 100%;
+}
+#sideNavigation {
+   	display: none !important;
+}
+@media screen and (max-width: 650px) {
+    #threadListHolder {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+#singleMessageContainer .responseArea {
+    height: 100px;
+}
+.threadConversationHolder {
+    bottom: inherit !important;
+}
+#singleMessageContainer .textResponse {
+	height: 50px;
+}
+#singleMessageContainer .MMSCanvasArea, #singleMessageContainer .emoji-selector-container,
+#singleMessageContainer .emoticonSelector,
+#singleMessageContainer .scheduleSelector{
+    margin: 0;
+}
