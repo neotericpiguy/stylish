@@ -1,6 +1,8 @@
 /* https://mightytext.net */
+
 #pinnedContent {
     left: 0px;
+    top: 0px;
     display: flex;
     min-width: inherit;
 }
@@ -22,6 +24,9 @@ ul#navBarTabs > li {
 }
 #sideNavigation {
    	display: none !important;
+}
+.app-search-container {
+    display: none !important;
 }
 @media screen and (max-width: 650px) {
     #threadListHolder {
@@ -47,3 +52,4 @@ ul#navBarTabs > li {
 #singleMessageContainer .scheduleSelector{
     margin: 0;
 }
+
